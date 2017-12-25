@@ -6,22 +6,32 @@
     "react": "^16.2.0",
     "react-beautiful-dnd": "^3.0.0",
     "react-dom": "^16.2.0",
-    "react-scripts-ts": "2.8.0"
+    "react-redux": "^5.0.6",
+    "react-scripts-ts": "2.8.0",
+    "redux": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "prettier": "prettier --write ./**/*.{ts,tsx}",
+    "precommit": "npm run prettier"
   },
   "devDependencies": {
-    "@types/react-beautiful-dnd": "^2.3.2",
     "@types/jest": "^21.1.8",
     "@types/node": "^8.5.1",
     "@types/prop-types": "^15.5.2",
     "@types/react": "^16.0.31",
+    "@types/react-beautiful-dnd": "^2.3.2",
     "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
+    "@types/react-test-renderer": "^16.0.0",
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
     "prettier": "^1.9.2",
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",
+    "react-test-renderer": "^16.2.0",
+    "tslint": "^5.8.0"
   }
 }
