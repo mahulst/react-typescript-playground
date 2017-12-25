@@ -5,4 +5,4 @@ node_js:
 before_install:
 - npm i
 script:
-- npm run test
+- npm test -- --coverage
